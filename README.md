@@ -1,7 +1,7 @@
 # React Portfolio
 This is a react-based frontend application developed for personal portfolio.
 
-Hosted url:  https://deenuy.github.io/
+Hosted url:  https://deenuy.herokuapp.com/
 
 ## Technology Stack
 * SCSS, CSS
