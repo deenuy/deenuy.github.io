@@ -1,0 +1,98 @@
+/*********************************************************************************
+
+	Template Name: Trydo React Degital Agency Template
+	Note: This is style css.
+
+**********************************************************************************/
+
+/**************************************************************
+	
+	STYLESHEET INDEXING
+	|
+	|
+	|___ Default Styles
+	|	|
+	|	|___ variables
+	|	|___ mixins
+	|	|___ reset
+	|	|___ typography
+	|	|___ extend
+	|	|___ animations
+	|	|___ shortcode
+	|	|___ spacing
+	|
+	|
+	|___Header Styles
+	|	|___ header
+	|	|___ mainmenu
+	|
+	|
+	|___Inner Styles
+	|	|___ breadcrump 
+	|	|___ section-title 
+	|	|___ button
+	|	|___ socialicon
+	|	|___ footer
+	|
+	|___Elements Styles
+	|	|___ portfolio 
+	|	|___ slider 
+	|	|___ tab 
+	|	|___ contact 
+	|
+	|___Template Styles
+	|	|___ about 
+	|	|___ portfolio-details
+	|	|___ preview
+	|
+	|___ END STYLESHEET INDEXING
+
+***************************************************************/
+
+
+/**************************************
+    Default Styles
+***************************************/
+@import 'default/variables';
+@import 'default/mixins';
+@import 'default/reset';
+@import 'default/typography';
+@import 'default/extend';
+@import 'default/animations';
+@import 'default/shortcode';
+@import 'default/spacing';
+
+/**************************************
+    Header Styles
+***************************************/
+
+@import 'header/header';
+@import 'header/mainmenu';
+
+/**************************************
+    Inner Styles
+***************************************/
+
+@import 'common/breadcrump';
+@import 'common/section-title';
+@import 'common/button';
+@import 'common/socialicon';
+@import 'common/footer';
+
+/**************************************
+    Elements Styles
+***************************************/
+
+@import 'elements/portfolio';
+@import 'elements/slider';
+@import 'elements/tab';
+@import 'elements/contact';
+
+
+/**************************************
+    Template Styles
+***************************************/
+
+@import 'template/about';
+@import 'template/portfolio-details';
+@import 'template/preview';
