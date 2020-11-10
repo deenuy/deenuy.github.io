@@ -29,36 +29,38 @@ const DeenuPortfolio = () => {
 
           {/* Navbar */}
           <Header homeLink="/" logo="symbol-dark" color="color-black"/>
-
-          <div className="slider-wrapper">
-            {/* Start Single Slide */}
-            {SlideList.map((value , index) => (
-                <div className="slide designer-portfolio slider-style-3  d-flex align-items-center justify-content-center bg_color--5 rn-slider-height" key={index}>
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-5">
-                                <div className="designer-thumbnail">
-                                    <img src="/assets/images/about/deenu-profile.jpg" alt="Slider Images"/>
-                                </div>
-                            </div>
-                            <div className="col-lg-7 mt_md--40 mt_sm--40">
-                                <div className={`inner ${value.textPosition}`}>
-                                    {value.category ? <span>{value.category}</span> : ''}
-                                    <h1 className="title">Hi, I’m Deenu Gengiti <br/>
-                                    <TextLoop>
-                                        <span> Product Manager.</span>
-                                        <span> Full Stack Developer.</span>
-                                        <span> ML Engineer.</span>
-                                    </TextLoop>{" "}
-                                    </h1>
-                                    <h2>based in Toronto.</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              ))}
-                {/* End Single Slide */}
+          
+          <div id="home" className="fix">
+            <div className="slider-wrapper">
+              {/* Start Single Slide */}
+              {SlideList.map((value , index) => (
+                  <div className="slide designer-portfolio slider-style-3  d-flex align-items-center justify-content-center bg_color--5 rn-slider-height" key={index}>
+                      <div className="container">
+                          <div className="row align-items-center">
+                              <div className="col-lg-5">
+                                  <div className="designer-thumbnail">
+                                      <img src="/assets/images/about/deenu-profile.jpg" alt="Slider Images"/>
+                                  </div>
+                              </div>
+                              <div className="col-lg-7 mt_md--40 mt_sm--40">
+                                  <div className={`inner ${value.textPosition}`}>
+                                      {value.category ? <span>{value.category}</span> : ''}
+                                      <h1 className="title">Hi, I’m Deenu Gengiti <br/>
+                                      <TextLoop>
+                                          <span> Product Manager.</span>
+                                          <span> Full Stack Developer.</span>
+                                          <span> ML Engineer.</span>
+                                      </TextLoop>{" "}
+                                      </h1>
+                                      <h2>based in Toronto.</h2>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                ))}
+              {/* End Single Slide */}
+              </div>
             </div>
 
             {/* Start About Area */}
@@ -86,14 +88,16 @@ const DeenuPortfolio = () => {
             
             
             {/* Start Designer Portfolio  */}
-            <div className="designer-portfolio-area ptb--120 bg_color--1">
-                <div className="wrapper plr--70 plr_sm--30 plr_md--30">
-                    <TabThree column="col-lg-4 col-md-6 col-sm-6 col-12" />
-                </div>
+            <div id="portfolio" className="fix">
+              <div className="designer-portfolio-area ptb--120 bg_color--1">
+                  <div className="wrapper plr--70 plr_sm--30 plr_md--30">
+                      <TabThree column="col-lg-4 col-md-6 col-sm-6 col-12" />
+                  </div>
+              </div>
             </div>
             {/* End Designer Portfolio  */}
 
-            {/* Start COntact Area */}
+            {/* Start Contact Area */}
             <div id="contact" className="fix">
               <div className="rn-contact-area ptb--120 bg_color--1">
                 <Contact />
