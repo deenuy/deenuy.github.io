@@ -2,7 +2,7 @@
   "name": "deenu-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://deenuy.github.io/deenuy.github.io",
+  "homepage": "https://deenuy.github.io",
   "basename": "/",
   "dependencies": {
     "@babel/core": "7.4.3",
