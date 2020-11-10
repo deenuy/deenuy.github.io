@@ -6,56 +6,56 @@ import 'react-image-lightbox/style.css';
 const TabOne = [
     {
 			image: '01',
-			bigImage: '/assets/images/portfolio/big/dp-big--portfolio-01.jpg',
+			bigImage: 'assets/images/portfolio/demo-solution.png',
 			category: 'Full-stack Development',
 			title: 'Google Book Store (React App)',
 			github: 'https://github.com/deenuy/MERN-stack-google-books-store'
     },
     {
 			image: '02',
-			bigImage: '/assets/images/portfolio/big/dp-big--portfolio-02.jpg',
+			bigImage: 'assets/images/portfolio/ePet-shop.jpg',
 			category: 'Full-stack Development',
 			title: 'ePet Shop (React App)',
 			github: 'https://github.com/deenuy/uoft-mern-stack-ePet-shop-app'
 		},
 		{
 			image: '03',
-			bigImage: '/assets/images/portfolio/big/dp-big--portfolio-05.jpg',
+			bigImage: 'assets/images/portfolio/Twitter-sentiment-analysis-R.png',
 			category: 'Machine Learning',
 			title: 'Covid19 Twitter Sentiment Analysis',
 			github: ''
 		},
     {
 			image: '04',
-			bigImage: '/assets/images/portfolio/big/dp-big--portfolio-03.jpg',
+			bigImage: 'assets/images/portfolio/demo-emp-dir-react-app.gif',
 			category: 'Full-stack Development',
 			title: 'Grid Search & Sort (React App)',
 			github: 'https://github.com/deenuy/UofT-react-emp-directory'
     },
     {
 			image: '05',
-			bigImage: '/assets/images/portfolio/big/dp-big--portfolio-04.jpg',
+			bigImage: 'assets/images/portfolio/discover-stocks.gif',
 			category: 'Full-stack Development',
 			title: 'Discover Stocks (Frontend App)',
 			github: 'https://github.com/deenuy/SCS-Personalized-Stocks-Discovery-Fullstack'
     },
     {
 			image: '06',
-			bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
+			bigImage: 'assets/images/portfolio/employee-segmentation.jpg',
 			category: 'Machine Learning',
 			title: 'Market Segmentation & Preference Analysis',
 			github: ''
     },
     {
 			image: '07',
-			bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
+			bigImage: 'assets/images/portfolio/demo-day-planner.gif',
 			category: 'Full-stack Developmen',
 			title: 'Day Planner (Frontend App)',
 			github: 'https://github.com/deenuy/UofT-day-planner-webapp'
     },
     {
 			image: '08',
-			bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
+			bigImage: 'assets/images/portfolio/demo-weather-app.gif',
 			category: 'Full-stack Developmenr',
 			title: 'Weather Dashboard (Frontend App)',
 			github: 'https://github.com/deenuy/UofT-weather-app'
@@ -64,62 +64,62 @@ const TabOne = [
 
 // Fullstack Web Development; MERN Stack, React app projects from gituhub
 const TabTwo = [
-	{
-		image: '01',
-		bigImage: '/assets/images/portfolio/big/dp-big--portfolio-01.jpg',
-		category: 'Full-stack Development',
-		title: 'Google Book Store (React App)',
-		github: 'https://github.com/deenuy/MERN-stack-google-books-store'
-	},
-	{
-		image: '02',
-		bigImage: '/assets/images/portfolio/big/dp-big--portfolio-02.jpg',
-		category: 'Full-stack Development',
-		title: 'ePet Shop (React App)',
-		github: 'https://github.com/deenuy/uoft-mern-stack-ePet-shop-app'
-	},
-	{
-		image: '04',
-		bigImage: '/assets/images/portfolio/big/dp-big--portfolio-03.jpg',
-		category: 'Full-stack Development',
-		title: 'Grid Search & Sort (React App)',
-		github: 'https://github.com/deenuy/UofT-react-emp-directory'
-	},
-	{
-		image: '05',
-		bigImage: '/assets/images/portfolio/big/dp-big--portfolio-04.jpg',
-		category: 'Full-stack Development',
-		title: 'Discover Stocks (Frontend App)',
-		github: 'https://github.com/deenuy/SCS-Personalized-Stocks-Discovery-Fullstack'
-	},
-	{
-		image: '07',
-		bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
-		category: 'Full-stack Developmen',
-		title: 'Day Planner (Frontend App)',
-		github: 'https://github.com/deenuy/UofT-day-planner-webapp'
-	},
-	{
-		image: '08',
-		bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
-		category: 'Full-stack Developmenr',
-		title: 'Weather Dashboard (Frontend App)',
-		github: 'https://github.com/deenuy/UofT-weather-app'
-	},
+  {
+    image: '01',
+    bigImage: 'assets/images/portfolio/demo-solution.png',
+    category: 'Full-stack Development',
+    title: 'Google Book Store (React App)',
+    github: 'https://github.com/deenuy/MERN-stack-google-books-store'
+  },
+  {
+    image: '02',
+    bigImage: 'assets/images/portfolio/ePet-shop.jpg',
+    category: 'Full-stack Development',
+    title: 'ePet Shop (React App)',
+    github: 'https://github.com/deenuy/uoft-mern-stack-ePet-shop-app'
+  },
+  {
+    image: '04',
+    bigImage: 'assets/images/portfolio/demo-emp-dir-react-app.gif',
+    category: 'Full-stack Development',
+    title: 'Grid Search & Sort (React App)',
+    github: 'https://github.com/deenuy/UofT-react-emp-directory'
+  },
+  {
+    image: '05',
+    bigImage: 'assets/images/portfolio/discover-stocks.gif',
+    category: 'Full-stack Development',
+    title: 'Discover Stocks (Frontend App)',
+    github: 'https://github.com/deenuy/SCS-Personalized-Stocks-Discovery-Fullstack'
+  },
+  {
+    image: '07',
+    bigImage: 'assets/images/portfolio/demo-day-planner.gif',
+    category: 'Full-stack Developmen',
+    title: 'Day Planner (Frontend App)',
+    github: 'https://github.com/deenuy/UofT-day-planner-webapp'
+  },
+  {
+    image: '08',
+    bigImage: 'assets/images/portfolio/demo-weather-app.gif',
+    category: 'Full-stack Developmenr',
+    title: 'Weather Dashboard (Frontend App)',
+    github: 'https://github.com/deenuy/UofT-weather-app'
+  },   
 ]
 
 // Machine Learning and AI Projects
 const TabThree = [
-    {
-			image: '05',
-			bigImage: '/assets/images/portfolio/big/dp-big--portfolio-05.jpg',
+		{
+			image: '03',
+			bigImage: 'assets/images/portfolio/Twitter-sentiment-analysis-R.png',
 			category: 'Machine Learning',
 			title: 'Covid19 Twitter Sentiment Analysis',
 			github: ''
-    },
+		},
     {
 			image: '06',
-			bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
+			bigImage: 'assets/images/portfolio/employee-segmentation.jpg',
 			category: 'Machine Learning',
 			title: 'Market Segmentation & Preference Analysis',
 			github: ''
@@ -190,7 +190,7 @@ class TabStyleThree extends Component {
                                             <div className="thumbnail-inner">
                                                 <div className="thumbnail">
                                                     <a href={`${value.github}`}>
-                                                        <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
+                                                        <img src={`${value.bigImage}`} alt="Portfolio Images"/>
                                                     </a>
                                                 </div>
                                             </div>
@@ -236,7 +236,7 @@ class TabStyleThree extends Component {
                                             <div className="thumbnail-inner">
                                                 <div className="thumbnail">
                                                     <a href={`${value.github}`}>
-                                                        <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
+                                                        <img src={`${value.bigImage}`} alt="Portfolio Images"/>
                                                     </a>
                                                 </div>
                                             </div>
@@ -282,7 +282,7 @@ class TabStyleThree extends Component {
                                             <div className="thumbnail-inner">
                                                 <div className="thumbnail">
                                                     <a href={`${value.github}`}>
-                                                        <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
+                                                        <img src={`${value.bigImage}`} alt="Portfolio Images"/>
                                                     </a>
                                                 </div>
                                             </div>
@@ -328,7 +328,7 @@ class TabStyleThree extends Component {
                                             <div className="thumbnail-inner">
                                                 <div className="thumbnail">
                                                     <a href={`${value.github}`}>
-                                                        <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
+                                                        <img src={`${value.bigImage}`} alt="Portfolio Images"/>
                                                     </a>
                                                 </div>
                                             </div>
