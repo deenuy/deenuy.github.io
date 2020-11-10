@@ -21,7 +21,7 @@ const SlideList = [
 
 const DeenuPortfolio = () => {
   let title = 'About Me',
-      description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+      description = 'A novice father, budding machine learning engineer & full stack developer with seasoned experience on program & product mangement over 17 years in the domain of engineering (PLM) and manufacturing execution systems (MoM). I am aslo widely recognized for developing agile, self-sustaining, and energetic global software development teams.';
     return (
         <div>
           {/* Page title */}

@@ -5,9 +5,9 @@ class TabsTwo extends Component{
     render(){
         let 
         tab1 = "Main skills",
-        tab2 = "Awards",
-        tab3 = "Experience",
-        tab4 = "Education & Certification";
+        tab2 = "Experience",
+        tab3 = "Trainings & Certifications",
+        tab4 = "Education";
         const { tabStyle } = this.props
         return(
             <div>
@@ -28,16 +28,24 @@ class TabsTwo extends Component{
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    <a href="/service">User experience design <span> - UI/UX</span></a>
-                                                    Delight the user and make it work.
+                                                    <a href="/service">Product Development for IIoT & Manufacturing Ops. Mgmt. Systems <span> - Product Owner</span></a>
+                                                    I am held responsible for product development of cloud hosted, .Net/C# & microservices architecture based Manufacturing operations management applications in domain IIoT, Digital Thread, Digital Twin and Digital Manufacturing.
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Web and user interface design<span> - Development</span></a>
-                                                    Websites, web experiences, ...
+                                                    <a href="/service">Solution Design & Implemetnations of Engineering PLM Systems <span> - Solution Architect</span></a>
+                                                    proficient and rich domain experience on engineering systems (PLM) for Siemens Teamcenter and Aras Innovator products.
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Interaction design <span> - Animation</span></a>
-                                                    I like to move it move it.
+                                                    <a href="/service">Program & Project Management <span> - Technical Program Manager</span></a>
+                                                    Profecient and strong experience in the discipline of PMO and Program Management for governing and steering successful programs and projects.
+                                                </li>
+                                                <li>
+                                                    <a href="/service">Fullstack Web Development<span> - Development</span></a>
+                                                    Developing small scale fullstack apps using MERN stack for AI/ ML implementations in perosnal free time
+                                                </li>
+                                                <li>
+                                                    <a href="/service">Product Development for AI/ML integration <span> - Product Owner (AI/ML)</span></a>
+                                                    I am responsible for AI/ML practice for product development in the present company. Developing a roadmap for delivering AI as competent service for the customers.  
                                                 </li>
                                             </ul>
                                         </div>
@@ -47,31 +55,13 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Awwwards.com <span>- Winner</span></a> 2019 - 2020
+                                                   <a href="https://www.pluraltechnology.com/">Sr. Program Manager (PLM, AI, IIoT)<span> - Plural Technology Inc, Canada</span></a> 2018 - Current
                                                </li>
                                                <li>
-                                                   <a href="/service">CSS Design Awards <span>- Winner</span></a> 2017 - 2018
+                                                   <a href="https://www.emerson.com/en-ca">Technical Services Manager (PLM)<span> - Emerson Electric Co, India</span></a> 2008 - 2018
                                                </li>
                                                <li>
-                                                   <a href="/service">Design nominees <span>- site of the day</span></a> 2013- 2014
-                                               </li>
-                                           </ul>
-                                       </div>
-                                    </TabPanel>
-
-
-
-                                    <TabPanel>
-                                       <div className="single-tab-content">
-                                           <ul>
-                                               <li>
-                                                   <a href="/service">Sr. Front-end Engineer<span> - Google</span></a> 2018 - Current
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Front-end Engineer<span> - Microsoft</span></a> 2017 - 2018
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Software Engineer<span> - Alibaba </span></a> 2013- 2014
+                                                   <a href="https://geometricglobal.com/">Senior Software Engineer (PLM)<span> - HCl Technologies (Geometric Ltd), India </span></a> 2006- 2008
                                                </li>
                                            </ul>
                                        </div>
@@ -81,13 +71,44 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">BSc In CSE<span> - ABC University, Los Angeles, CA</span></a> 2010
+                                                   <a href="/service">Aras Innovator Developing Solutions 12 <span>- Aras</span></a> 2020
                                                </li>
                                                <li>
-                                                   <a href="/service">Diploma in Computer Science<span> - Gamma Technical Institute</span></a> 2009
+                                                   <a href="/service">Lean Six Sigma Black Belt <span>- Breakthrough Consulting Services</span></a> 2016
                                                </li>
                                                <li>
-                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
+                                                   <a href="/service">Lean Six Sigma Green Belt <span>- QAI</span></a> 2016
+                                               </li>
+                                               <li>
+                                                   <a href="/service">Certified ScrumMaster® <span>- Scrum Alliance</span></a> 2015
+                                               </li>
+                                               <li>
+                                                   <a href="/service">ITIL® Foundation <span>- Axelos</span></a> 2015
+                                               </li>
+                                               <li>
+                                                   <a href="/service">MSP® Practitioner - Managing Successful Programmes <span>- Axelos</span></a> 2014
+                                               </li>
+                                           </ul>
+                                       </div>
+                                    </TabPanel>
+
+                                    <TabPanel>
+                                       <div className="single-tab-content">
+                                           <ul>
+                                               <li>
+                                                   <a href="https://bootcamp.learn.utoronto.ca/coding/">Fullstakc Development Bootcamp (May-Nov 2020)<span> - University of Toronto, Toronto, CA</span></a>
+                                               </li>
+                                               <li>
+                                                   <a href="https://continue.yorku.ca/lp/wn/data-analytics/">Big Data, Advanced Data Science and Predictive Analytics (2019-2020)<span> - York University, Toronto, CA</span></a>
+                                               </li>
+                                               <li>
+                                                   <a href="https://lassonde.yorku.ca/">Bachelors (Honours) in Computer Science & Cognitive Science (min)<span> - Lassonde School of Engg. (York University), Toronto, CA</span></a>
+                                               </li>
+                                               <li>
+                                                   <a href="https://www.citdindia.org/html/dtdm_dpe.htm">Post Diploma in Tool Design<span> - Central Institute of Tool Design, India</span></a>
+                                               </li>
+                                               <li>
+                                                   <a href="http://polytechnicts.cgg.gov.in/nizamabad.edu">Diploma in Mechanical Engineering<span> - Govt. Polytechnic Institute, India</span></a>
                                                </li>
                                            </ul>
                                        </div>
