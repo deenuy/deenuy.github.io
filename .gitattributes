@@ -1,0 +1,4 @@
+# Apply override to a specific file
+jquery.js -linguist-vendored
+*.scss linguist-generated
+*.css linguist-generated
