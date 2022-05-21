@@ -2,3 +2,5 @@
 jquery.js -linguist-vendored
 *.scss linguist-generated
 *.css linguist-generated
+*.jsx linguist-detectable
+*.jsx linguist-language=ReactJs
